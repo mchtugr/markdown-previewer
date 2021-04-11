@@ -1,13 +1,68 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+#preview-container {
+  padding: 0;
+  margin-left: 5px;
+}
+#preview {
+  overflow: scroll;
+  word-break: break-word;
+  height: 85vh;
+  border-radius: 5px;
+  padding: 15px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#text-edit {
+  height: 90vh;
+  margin-right: 5px;
+}
+
+#editor {
+  resize: none;
+  height: 85vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #212121;
+  color: #e0e0e0;
+}
+
+.col {
+  padding: 0;
+}
+
+.row {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.toolbar {
+  background-color: #d1d0cf;
+  border-radius: 5px;
+  padding: 0 10px;
+  padding-top: 5px;
+}
+
+.display-none {
+  display: none;
+}
+
+.toggle-button {
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+.toggle-button :hover {
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  #preview-container {
+    margin: 10px 0;
+  }
+
+  #text-edit {
+    margin: 10px 0;
+  }
 }
