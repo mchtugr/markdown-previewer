@@ -1,5 +1,3 @@
-# You can preview the app [here](https://mchtugr.github.io/markdown-previewer/).
-
 # Markdown Previewer
 
 This project is coded for FreeCodeCamp Frontend Libraries Project. You can preview your markdown files live.
